@@ -1,0 +1,10 @@
+The body mass index (BMI) is a measure to see if someone is underweight or overweight.
+
+This is the formula used to calculate it:
+bmi is equal to the person's weight (Kg) divided by the person's height (Meter) squared.
+
+The resulting number indicates one of the following categories:
+Underweight = less than 18
+Normal = more or equal to 18 and less than 25
+Overweight = more or equal to 25 and less than 30
+Obesity = 30 or more
