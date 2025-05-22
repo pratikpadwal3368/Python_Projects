@@ -4,4 +4,9 @@ weight = float(input("Enter your weight in Kg\n"))
 bmi = weight / (height ** 2)
 #to make it user friendly,rounding BMI to the closest number.
 Final_bmi = round(bmi)
-print("Your BMI is" + " " + str(Final_bmi))
+if Final_bmi < 18:
+    print(f"your BMI is {Final_bmi} and you are underweight")
+elif Final_bmi < 25:
+    print(f"your BMI is {Final_bmi} and your weight is normal")
+else:
+    print(f"your BMI is {Final_bmi} and you are overweight")
