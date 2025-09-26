@@ -1,0 +1,1 @@
+Program to find smallest number from the list without using built-in (min) function
